@@ -58,7 +58,7 @@ export class BoreTunnel {
     localPort: number,
     remoteServer: string,
     options: BoreOptions = {},
-  ) {
+  ): Promise<BoreTunnel> {
     const command = new Deno.Command("bore", {
       args: createBoreArgs(localPort, remoteServer, options),
       stdout: "piped",
