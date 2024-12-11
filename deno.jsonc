@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@std/regexp": "jsr:@std/regexp@^1.0.0",
+    "@std/streams": "jsr:@std/streams@^1.0.8"
+  }
+}
