@@ -1,4 +1,8 @@
 {
+  "name": "@fabon/bore-client-deno",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./mod.ts",
   "imports": {
     "@std/regexp": "jsr:@std/regexp@^1.0.0",
     "@std/streams": "jsr:@std/streams@^1.0.8"
